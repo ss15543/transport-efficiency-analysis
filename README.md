@@ -1,5 +1,4 @@
-# transport-efficiency-analysis
- Repository for NYC transport efficiency analysis  
+This repository is for transport efficiency analysis condusted on the motor vehicle collision data for New York City.  
  
 # Data Ingestion
  Name: Motor Vehicle Collisions-Crashes
@@ -28,4 +27,13 @@ The entire data cleaning and profiling was done using two mapreduce programs ‘
  4. Final step was to select the features that will be used in this analysis and remove any duplicate records. T
 
 After Data cleaning, the final file has 17 fields and the size of the file is 778 KB. Shell Commands used are added in the log file.
- 
+
+# Data Analysis and Final Recommendation
+Please refer to analysis.sql file for details on the queries run for this analysis. Of all the boroughs, Brooklyn had the highest number of pedestrian/cyclist/motorist injuries and fatalities. Here are some of my recommendations to minimize this issue:
+
+ 1. Increase awareness and enforcement of traffic laws and safety measures in Brooklyn to reduce the number of collisions, injuries, and fatalities.
+ 2. Develop targeted educational campaigns for drivers to address the top causes of collisions, such as driver inattention/distraction, unsafe speed, and alcohol involvement.
+ 3. Improve road infrastructure and traffic control measures in Brooklyn to reduce the risk of collisions, such as increasing the number of traffic lights and stop  signs, improving road signage, and reducing speed limits in high-risk areas.
+ 4. Increase police presence and enforcement efforts in Brooklyn to deter reckless driving behaviors, such as following too closely and traffic control disregard.
+ 5. Conduct ongoing data analysis and monitoring to identify emerging trends and hotspots for collisions and implement targeted interventions to address them.
+
