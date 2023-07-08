@@ -1,5 +1,15 @@
-This repository is for transport efficiency analysis condusted on the motor vehicle collision data for New York City.  
- 
+This repository is for transport efficiency analysis conducted on the motor vehicle collision data for New York City. 
+
+|File|Description|	
+| --- | --- |
+|`DeliminatorChanger.java`|Java code for deliminator change operation on original data. Saves file in HDFS.|
+|`DeliminatorChangerMapper.java`|Java code for deliminator change Mapper operation.|
+|`DeliminatorChangerReducer.java`|Java code for deliminator change Reduce operation.|
+|`Subset.java`|Java code for data cleaning and profiling after deliminator change.|
+|`SubsetMapper.java`|Java code for data cleaning and profiling Mapper operations.|
+|`SubsetReducer.java`|Java code for data cleaning and profiling Reducer operations.|
+|`analysis.sql`|Trino queries to perform analysis on the processed Motor Vehicle Collision/Crashes data.|
+
 # Data Ingestion
  Name: Motor Vehicle Collisions-Crashes
  
